@@ -14,7 +14,7 @@ spec:
        spec:
           containers:
           - name: myapp
-            image: ivekov/nginx-8000:latest
+            image: ivekov/ivekov:latest
             ports:
               - name: web
                 containerPort: 8000

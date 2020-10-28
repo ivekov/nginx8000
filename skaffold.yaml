@@ -1,10 +1,10 @@
 apiVersion: skaffold/v2beta2
 kind: Config
 metadata:
-  name: mynginx
+  name: myapp
 build:
   artifacts:
-  - image: ivekov/nginx-8000
+  - image: ivekov/ivekov
 deploy:
   kubectl:
     manifests:
